@@ -20,8 +20,10 @@ def isOdd(n):
         return True
 
 def odd(n):
-    return 3n+1
+    n = (3*n)+1
+    return n
 
 def even(n):
-    return n/2
+    n = int(n/2)
+    return n
 
