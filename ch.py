@@ -1,10 +1,11 @@
-#!/CConjecture/
+#!/CConjecture/ch.py
+#currently just a copy of ph.py
 
 def main(rounds):
     while rounds != 0:
-        
         pass
     return None
+
 
 def lowerGen(num):
     num = num - 1
@@ -13,12 +14,6 @@ def lowerGen(num):
     else:
         return True
 
+
 def higherGen(num):
-    return num*2
-
-
-
-
-
-        
-    
+    return num * 2

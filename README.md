@@ -1,13 +1,42 @@
-# three-n-plus-one
-A repository for my study of the 3N+1 algorithm 
+#THE COLLATZ CONJECTURE
+A repository for my study of the Collatz Conjecture
 
-THE 3N+1 STUDY
+The algorithm starts with any positive integer. If it is odd you multiply it by 3 and add 1. If it is even you divide by 2.
+As you continuously iterate every integer will resolve to an endless loop of 4, 2, 1.
+        
+        pseudo-code example
+        
+        while n != 0:
+            if n is odd:
+                n = 3n+1
+            if n is even:
+                n = n/2
+        
+        >>> n = 1 
+        >>> n = 3n+1
+        >>> n = 4
+        >>> n = n/2
+        >>> n = 2
+        >>> n = n/2
+        >>> n = 1 
+        
+        back where we started, more info: https://en.wikipedia.org/wiki/Collatz_conjecture
+        
 
-The algorithm is currently unexplained but in a nutshell you input any positive integer and if it is odd you multiply it by 3 and add one,
-if it is even divide by two.
+No one has figured out why this works but I am curious so I will document my work in this repository.
 
-As you continue this process every integer will be broken down into an endless loop of 4, 2, 1.
-No one has figured out quite why this works the way it does but I am curious about it and I will track my studies here
-in this repository.
+There may be terms that I come up with over the course of this study so I will define them in the following file explanations below.
 
-cheers
+#algorithm.py
+(created: 03/01/2017)
+  
+#main.py
+(created: 03/01/2017)
+
+#ph.py
+(created: 03/01/2017)
+
+#ch.py
+(created: 03/01/2017)
+
+- Savvy
