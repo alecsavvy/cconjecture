@@ -10,8 +10,6 @@ def conjecture(n):
     else:
         return even(n)
 
-        
-    
 
 def isOdd(n):
     if n % 2 == 0:
