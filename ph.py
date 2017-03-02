@@ -16,3 +16,7 @@ def lowerGen(num):
 
 def higherGen(num):
     return num * 2
+
+def run()
+print("there will be a parental simulation here")
+    return None
