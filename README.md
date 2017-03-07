@@ -49,7 +49,7 @@ more info: https://en.wikipedia.org/wiki/Collatz_conjecture
 #main.py
 (created: 03/01/2017)
 
-Initializes the entire project with a user interface through the console. As of right now this is built to run from terminal. You can run this from idle or any other IDE you're comfortable with.
+Initializes the entire project with a user interface through the console. As of right now this is built to run from terminal. You can also run this from idle or any other IDE you're comfortable with.
         
         cd path/cconjecture
         savvy$ python3 main.py
