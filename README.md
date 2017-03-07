@@ -63,11 +63,14 @@ Parent: a potential previous node from an integer
 Parental Hierarchy: The accumulation of every potential parent node and following parents from a starting integer. For example, 2 has one parent which is 4. This is because 4/2 is 2. If we try to find the other parent for 2 [ 2 = 3n+1 ] we get 1/3 which is not an integer, and therefore not an option. 
 
 
-#ch.py
-(created: 03/01/2017)
+#trends.py
+(created: 03/06/2017)
 
+Contains all of the proofs for the Collatz Conjecture, or at least the proofs of any trends I find.
 
 #ex.py
 (created: 03/01/2017)
+
+Simple example program that asks for an integer if you want to watch the Collatz Conjecture in action.
 
 -Savvy
